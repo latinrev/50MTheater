@@ -1,0 +1,133 @@
+@media only screen and (max-width:1023px) {
+
+    .main-nav{
+        display: flex;
+    }
+    
+    .icon-nav{ display:none;}
+    
+}
+
+
+/*FROM 480 TO 767*/
+@media only screen and (max-width:767px) {
+
+    .main-title {
+        margin-top: 10px;
+        font-size: 150%;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .icon-nav {
+        display: inline-block;
+    }
+
+    nav ul li a::before,
+    nav ul li a::after {
+        margin: 0;
+
+    }
+
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+
+    .main-nav li {
+        display: block;
+        margin: 0;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 5px 0;
+        font-size: 100%;
+    }
+
+    .slogan h1 {
+        font-size: 100%;
+    }
+
+    .btn {
+        font-size: 80%;
+        padding: 5px;
+        display: block;
+    }
+
+    .benefits-section .row h2 {
+        text-align: center;
+
+        font-size: 200%;
+        margin-bottom: 10px;
+
+    }
+    .benefit-container{
+        display: block;
+        margin:0;
+    }
+
+    .benefit-container article {
+        flex-basis: 100%;
+        font-size: 80%;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .benefit-container figure {
+        height: 300px;
+        flex-basis: 100%;
+        margin: 0 30px;
+        padding: 0;
+    }
+
+    .benefit-container figure img {
+        padding: 0;
+        opacity: 1;
+        transform: scale(1.00);
+    }
+
+    .pricing-container {
+        margin: 0 auto;
+        display: block;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .pricing-element {
+        margin: 0;
+        padding: 20px 0;
+        margin-bottom: 20px;
+    }
+
+}
+@media only screen and (max-width:480px) {
+    
+ footer{
+    padding-bottom: 130px;
+    }
+footer .row{
+    margin: 5px;
+    display:block;
+    text-align: center;
+}
+footer .row ul li{
+    display: inline-block;
+}
+footer .row ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 100%;
+    margin: 0 20px;
+}
+footer .row .social-links{
+    font-size: 180%;
+}
+
+
+}
